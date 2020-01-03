@@ -4,4 +4,4 @@
 # connection: localhost
   gather_facts: no
   roles:
-    - launch
+    - update_servicenow_request
