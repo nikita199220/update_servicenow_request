@@ -5,6 +5,6 @@
     password: Nikita@123
     instance: dev92253
     state: present
-    number: "{{ INC }}"
+    number: "{{ incident_num }}"
     data:
       work_notes: "Been working all day on this thing."
