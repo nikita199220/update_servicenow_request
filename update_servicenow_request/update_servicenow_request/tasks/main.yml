@@ -1,9 +1,9 @@
 
 - name: Update an incident
   snow_record:
-    username: ansible_test
-    password: my_password
-    instance: dev99999
+    username: admin
+    password: 
+    instance: dev92253
     state: present
     number: {{ INC }}
     data:
