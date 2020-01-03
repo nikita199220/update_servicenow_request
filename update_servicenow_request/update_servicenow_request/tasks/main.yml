@@ -2,7 +2,7 @@
 - name: Update an incident
   snow_record:
     username: admin
-    password: 
+    password: Nikita@123
     instance: dev92253
     state: present
     number: {{ INC }}
