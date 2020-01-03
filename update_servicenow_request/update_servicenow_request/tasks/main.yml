@@ -1,0 +1,10 @@
+
+- name: Update an incident
+  snow_record:
+    username: ansible_test
+    password: my_password
+    instance: dev99999
+    state: present
+    number: {{ INC }}
+    data:
+      work_notes : "Been working all day on this thing."
